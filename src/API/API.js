@@ -1,12 +1,3 @@
-export const navbarItems = [
-  "Breakfast",
-  "Brunch",
-  "Lunch",
-  "Evening Snack",
-  "Dinner",
-  "All",
-];
-
 export const products = [
   {
     id: 1,
