@@ -1,4 +1,4 @@
-import React, { SetStateAction, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.scss";
 import Products from "./components/Products/Products";
 import Navbar from "./components/Navbar/Navbar";
