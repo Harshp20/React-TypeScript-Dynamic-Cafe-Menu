@@ -34,7 +34,7 @@ function App() {
 
   return (
     <>
-      <Navbar navbarItems={navbarItems} handleChangePage={handleChangePage} />
+      <Navbar navbarItems={navbarItems} selectedPage={currentPage} handleChangePage={handleChangePage} />
       <div className="card-outer-container">
         {currentProducts.map((product) => (
           <Products key={product.id} product={product} />
