@@ -1,5 +1,8 @@
 .card-outer-container {
+    width: 80%;
+    margin: auto;
     display: grid;
-    grid-template-columns: 32rem 32rem 32rem;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 24rem));
     justify-content: center;
 }

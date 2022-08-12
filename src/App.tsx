@@ -11,10 +11,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState("All");
 
   useEffect(() => {
-    setNavbarItems([
-      ...(new Set(allproducts.map((product) => product.type)) as any),
-      "All",
-    ]);
+    setNavbarItems([...(new Set(allproducts.map((product) => product.type)) as any), "All"]);
   }, []);
 
   useEffect(() => {
